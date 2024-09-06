@@ -33,7 +33,8 @@
 
             # Gleam
             pkgs.gleam
-            pkgs.nodejs
+            pkgs.erlang
+            pkgs.rebar3
           ];
         };
       }
