@@ -28,6 +28,10 @@
 
         devShells.default = pkgs.mkShell {
           packages = [
+            # Nix
+            pkgs.nil
+
+            # Gleam
             pkgs.gleam
             pkgs.nodejs
           ];
