@@ -1,8 +1,8 @@
-import gleam/io
-import gleam/http/elli
-import gleam/http/response.{type Response}
-import gleam/http/request.{type Request}
 import gleam/bytes_builder.{type BytesBuilder}
+import gleam/http/elli
+import gleam/http/request.{type Request}
+import gleam/http/response.{type Response}
+import gleam/io
 
 pub fn my_service(_request: Request(t)) -> Response(BytesBuilder) {
   let body = bytes_builder.from_string("Hello, Gleam-lang!!")
