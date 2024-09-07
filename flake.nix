@@ -32,6 +32,7 @@
         formatter = treefmtEval.config.build.wrapper;
 
         checks = {
+          inherit test_http_gleam;
           formatting = treefmtEval.config.build.check self;
         };
 
