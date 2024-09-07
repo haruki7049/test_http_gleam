@@ -38,7 +38,7 @@
 
         packages = {
           inherit test_http_gleam;
-          default =  test_http_gleam;
+          default = test_http_gleam;
         };
 
         devShells.default = pkgs.mkShell {
